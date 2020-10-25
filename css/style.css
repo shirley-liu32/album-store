@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 95%;
+}
+th {
+  height: 50px;
+}
+table, th, td {
+  border: 1px solid black;
+  padding-left: 15px;
+}
+input{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+img{
+  margin: 10px;
+}
+.album{
+  float: left;
+  padding: 10px;
+  padding-left: 22px;
+  padding-bottom: 2px;
+}
+.first_row, button, .second_row{
+  float: left;
+}
+input[type=submit], input[type=reset]{
+       font-family: "Raleway",sans-serif;
+       font-size: 20px;
+}
+button{
+          font-family: "Raleway",sans-serif;
+          font-size: 15px;
+          float: left;
+          margin-left: 130px;
+}
+#submit, #confirm{
+  background: #cff;
+  cursor: pointer;
+  border-top: solid 2px #eaeaea;
+  border-left: solid 2px #eaeaea;
+  border-bottom: solid 2px #777;
+  border-right: solid 2px #777;
+  padding: 5px;
+  font-size: 12px;
+}
+
+
+input.button{
+  background: #ccc;
+  cursor: pointer;
+  border-top: solid 2px #eaeaea;
+  border-left: solid 2px #eaeaea;
+  border-bottom: solid 2px #777;
+  border-right: solid 2px #777;
+  padding: 5px;
+  font-size: 12px;
+}
+
+input.button.down{
+  background: #ccf;
+  cursor: pointer;
+  border-top: solid 2px #777;
+  border-left: solid 2px #777;
+  border-bottom: solid 2px #eaeaea;
+  border-right: solid 2px #eaeaea;
+  padding: 5px;
+
+}
